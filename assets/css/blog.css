@@ -22,14 +22,17 @@ header {
     padding: 50px 0 20px 0;
     text-align: center;
     background-image: url('/assets/images/background.jpg');
+    background-position: top center;
 }
 
-header > h1 > a {
-    color: #404040;
+header,
+header a {
+    color: #202020;
 }
 
-header > h1 > a:hover {
+header a:hover {
     text-decoration: none;
+    color: #202020;
 }
 
 article {
