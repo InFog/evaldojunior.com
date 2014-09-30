@@ -6,12 +6,14 @@ title: Evaldo Junior (InFog)
 <ul class="unstyled">
     {% for post in paginator.posts %}
         <li>
+            <span>{{ post.date | date_to_string }}</span>
             <a href="{{ post.url }}">
-                <span class="f-right">{{ post.date | date_to_string }}</span>
-                <h3>{{ post.title }}</h3>
-                <p>{{ post.content | strip_html | truncatewords: 30 }}</p>
+                <h2 class="post-title">{{ post.title }}</h2>
             </a>
-            <hr />
+            <p>
+                {{ post.content | strip_html | truncatewords: 30 }}
+                <a href="{{ post.url }}">Read more</a>
+            </p>
         </li>
     {% endfor %}
 </ul>

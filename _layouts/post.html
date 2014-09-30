@@ -2,8 +2,9 @@
 layout: default
 ---
 <article>
-    <h2>{{ page.title }}</h2>
-    <span class="ink-label info f-right">{{ page.date | date_to_string }}</span>
+    <span>{{ page.date | date_to_string }}</span>
+
+    <h2 class="post-title">{{ page.title }}</h2>
 
     <div class="post">
         {{ content }}
@@ -24,7 +25,7 @@ layout: default
 <div class="comments">
     <div id="disqus_thread"></div>
     <script type="text/javascript">
-        var disqus_shortname = 'evaldojunior';
+        var disqus_shortname = 'evaldojuniorsblog';
 
         (function() {
             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

@@ -9,12 +9,12 @@
         <meta name="title" content="{{ page.title }}" />
         <meta name="description" content="{{ site.description }}" />
 
-        <meta name="viewport" content="width=device-width" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
         <link rel="alternate" type="application/rss+xml" title="{{ site.name }}'s feed"  href="/feed.xml" />
 
-        <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="/assets/css/ink-min.css">
+        <link rel="stylesheet" type="text/css" href="http://fastly.ink.sapo.pt/3.1.0/css/ink.css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="/assets/css/blog.css">
 
         <!-- syntax highlighting CSS -->
@@ -26,72 +26,101 @@
     </head>
 
     <body>
-        <div class="ink-grid">
-            <header>
-                <h1><a href="/">{{ site.name }}</a></h1>
+        <header>
+            <div class="ink-grid">
+                <div class="column-group gutters">
+                    <div class="all-100">
+                        <h1><a href="/">{{ site.name }}</a></h1>
 
-                <p>Web developer, writer, speaker, Free and Open Source Software contributor and a Best Development Practices and Patterns follower.</p>
+                        <p>Web developer, writer, speaker, Free and Open Source Software contributor and a Best Development Practices and Patterns follower.</p>
 
-                <nav class="ink-navigation">
-                    <ul class="menu horizontal blue flat">
-                        <li><a class="" href="/">Home</a></li>
-                        <li><a class="" href="/books.html">Books</a></li>
-                        <li><a class="" href="/about.html">About</a></li>
-                    </ul>
-                </nav>
-            </header>
-
-            <div class="column-group gutters">
-                <div class="large-75 medium-70 small-100">
-                    {{ content }}
-                </div>
-                <div class="large-25 medium-30 small-100">
-                    <aside>
-                        <h3>Follow up</h3>
-                        <ul class="unstyled">
-                            <li>
-                                <a href="{{ site.url }}/feed.xml">
-                                    <i class="icon-rss-sign"></i> RSS Feed
-                                </a>
-                            </li>
-                        </ul>
-                        <h3>Find me here</h3>
-                        <ul class="unstyled">
-                            <li>
-                                <a href="https://github.com/InFog">
-                                    <i class="icon-github-sign"></i> GitHub
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/InFog9">
-                                    <i class="icon-twitter-sign"></i> Twitter
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://about.me/evaldojunior">
-                                    <i class="icon-user"></i> About me
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://br.linkedin.com/in/evaldojunior/">
-                                    <i class="icon-linkedin-sign"></i> LinkedIn
-                                </a>
-                            </li>
-                        </ul>
-                        <h3>Awesome tools I use</h3>
-                        <ul class="unstyled">
-                            <li><a href="http://www.debian.org/">Debian</a></li>
-                            <li><a href="http://php.net/">PHP</a></li>
-                            <li><a href="http://www.vim.org">Vim</a></li>
-                        </ul>
-                    </aside>
+                        <nav>
+                            <ul class="unstyled horizontal">
+                                <li><a class="" href="/">Home</a></li>
+                                <li><a class="" href="/books.html">Books</a></li>
+                                <li><a class="" href="/about.html">About</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </div>
+        </header>
 
-            <div class="footer">
-                <p>
-                    &copy; Evaldo Junior (InFog) - 2007 - 2014
-                </p>
+        <div class="ink-grid">
+            <div class="column-group gutters">
+                <div class="all-15 small-100"></div>
+                <div class="all-70 small-100">
+                    {{ content }}
+                </div>
+                <div class="all-15 small-100"></div>
+            </div>
+
+            <aside>
+                <div class="column-group gutters">
+                    <div class="all-15 small-100"></div>
+                    <div class="all-70 small-100">
+                        <div class="column-group gutters">
+                            <div class="all-33 medium-100 small-100">
+                                <h3>Follow up</h3>
+                                <ul class="unstyled">
+                                    <li>
+                                        <a href="{{ site.url }}/feed.xml">
+                                            <i class="icon-rss-sign"></i> RSS Feed
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="all-33 medium-100 small-100">
+                                <h3>Find me here</h3>
+                                <ul class="unstyled">
+                                    <li>
+                                        <a href="https://github.com/InFog">
+                                            <i class="fa fa-github-square"></i> GitHub
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/InFog9">
+                                            <i class="fa fa-twitter"></i> Twitter
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.youtube.com/user/EvaldoJuniorBento/videos">
+                                            <i class="fa fa-youtube"></i> YouTube
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://about.me/evaldojunior">
+                                            <i class="fa fa-user"></i> About me
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://br.linkedin.com/in/evaldojunior/">
+                                            <i class="fa fa-linkedin"></i> LinkedIn
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="all-33 medium-100 small-100">
+                                <h3>Awesome tools I use</h3>
+                                <ul class="unstyled">
+                                    <li><a href="http://www.debian.org/">Debian</a></li>
+                                    <li><a href="http://php.net/">PHP</a></li>
+                                    <li><a href="http://www.vim.org">Vim</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <div class="column-group gutters">
+                <div class="all-100">
+                    <div class="footer">
+                        <p>
+                            &copy; Evaldo Junior (InFog) - 2007 - 2014
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -101,8 +130,8 @@
                 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-            ga('create', 'UA-47412319-3', 'auto');
-            ga('send', 'pageview');
+ga('create', 'UA-47412319-3', 'auto');
+ga('send', 'pageview');
         </script>
     </body>
 </html>
