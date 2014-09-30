@@ -18,21 +18,24 @@ h2.post-title {
     text-align: center;
 }
 
+#header-image {
+    height: 340px;
+    background: url('/assets/images/background.jpg') no-repeat center top fixed;
+}
+
 header {
-    padding: 50px 0 20px 0;
     text-align: center;
-    background-image: url('/assets/images/background.jpg');
-    background-position: top center;
+    padding: 50px 0 20px 0;
 }
 
 header,
 header a {
-    color: #202020;
+    color: #404040;
 }
 
 header a:hover {
     text-decoration: none;
-    color: #202020;
+    color: #404040;
 }
 
 article {
