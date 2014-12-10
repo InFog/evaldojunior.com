@@ -20,7 +20,7 @@ h2.post-title {
 
 #header-image {
     height: 340px;
-    background: url('/assets/images/background.jpg') no-repeat center top fixed;
+    background: url('/assets/images/background.jpg') no-repeat left top fixed;
 }
 
 header {
