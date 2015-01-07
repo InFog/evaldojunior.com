@@ -85,7 +85,7 @@ Want to log stuff? Framework is here for you.
 
 Need a cache layer? Framework!
 
-Templade engine? Framework!!! (Ok, not CodeIgniter...)
+Template engine? Framework!!! (Ok, not CodeIgniter...)
 
 Well, you get it.
 
@@ -93,7 +93,7 @@ And maybe you don't need all these things. Maybe you need just a router for your
 small Api. And I think this is where the problem lies. If full-stack frameworks
 have a lot of helpful things, they are useful only for big projects, that will
 really make use of everything in the framework, or most part of it. And, of
-course, micro-frameworks will be the oposite of full-stack and be suitable only
+course, micro-frameworks will be the opposite of full-stack and be suitable only
 for small projects where you need just a few libs.
 
 ... This is not true!
@@ -113,7 +113,7 @@ as your project grows and needs new features. Yet, it will be easier to decouple
 your project from the framework.
 
 It's not hard to find ZF1 projects using Doctrine for database management or
-twig for templating (or ZF2 :) ... )
+twig for templates (or ZF2 :) ... )
 
 So, if you think about it, maybe micro-frameworks should be targeted at small
 and big/huge projects, because the standard libs of a full-stack will not be
@@ -121,7 +121,7 @@ always the best choices and the project will be really glued to it.
 
 If you are a experienced developer and know you can build a better stack out of
 decoupled components and keep them up to date, go for micro-frameworks. It will
-surely not be easy in the begining, yet it should pay off as the project grows
+surely not be easy in the beginning, yet it should pay off as the project grows
 and having a better understanding of the stack and how to mold and control it
 is necessary.
 
