@@ -74,7 +74,7 @@ to help you getting things done.
 Don't know how to organize your code? Use default directories organization from
 CodeIgniter and done.
 
-Don't really understands MVC? Just create controllers, models and views following
+Don't really understand MVC? Just create controllers, models and views following
 the documentation and done. And it's ok if you have a lot of business logic in
 your controllers and super slim models used just for data persistence and
 database's searches and basically no real OOP at all (that was my case).
