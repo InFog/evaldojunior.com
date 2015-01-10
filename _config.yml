@@ -3,5 +3,5 @@ description: A blog about GNU/Linux, PHP, Python and other development, IT and g
 url: http://blog.evaldojunior.com
 markdown: redcarpet
 highlighter: true
-timezone: America/Sao_Paulo
+timezone: Europe/Berlin
 paginate: 10
