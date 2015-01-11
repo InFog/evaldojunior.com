@@ -53,7 +53,7 @@ So, if you think about it, micro-frameworks are actually **harder** to use than
 **full-stacks**!
 
 And this leads to another question: Are micro-frameworks good choices for
-beginners? Ok, maybe this topic will turn in another post :)
+beginners? Ok, maybe this topic will turn into a new post :)
 
 Now, going back to projects' size...
 
