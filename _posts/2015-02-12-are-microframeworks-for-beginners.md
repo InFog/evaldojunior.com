@@ -30,8 +30,6 @@ time, then a micro-framework could not be exactly the best choice for you.
 
 After all, a micro-framework is like just the engine and basic parts of a car.
 
-**TODO: Draw of an engine...**
-
 My point is not about the technology you choose being better or worse than
 another one, my points are aimed on these topics:
 
@@ -57,8 +55,6 @@ somehow have it.
 
 So, the full stack is like the complete car.
 
-**TODO: Draw a car**
-
 And this is good for almost all the projects out there. When a framework ship
 something is like it's recommending it as a good, or maybe the best, option.
 
@@ -78,10 +74,9 @@ If you have a team with too much juniors or maybe no seniors to push things,
 then a full-stack is definitely a good option. The team can follow what the
 framework dictates and learn a lot in the process.
 
-Well, sometimes the team will add pieces to replace the bad partes of the full
-stack.
-
-**TODO: a modified car**
+Well, sometimes the team will add pieces to replace the bad parts of the full
+stack. The result can be a nice tuned car or something funny with 8 doors, 3
+engines and no wheel.
 
 ## The good thing on micro-frameworks
 
@@ -102,14 +97,10 @@ world of options out there. And, of course, always remember:
 When using a micro-framework you are the owner of your ground and you need to
 choose on which bases you want to build your race car, sorry, application.
 
-**TODO: a racing car**
-
 And here is where I say that micro-frameworks are not good options for beginners,
 since a beginner is still learning and cannot make good choices for long term
 applications. I mean, it's hard for seniors to choose something to use and be
 sure it will still be a good option in the future!
-
-**TODO: a funny race car**
 
 And there are more points, like application architecture, design patterns, best
 practices, etc. Beginners will have a hard time building everything. It's
