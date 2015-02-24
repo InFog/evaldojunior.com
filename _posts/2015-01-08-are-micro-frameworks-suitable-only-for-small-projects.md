@@ -19,15 +19,15 @@ small projects, prototyping and small REST Apis (or other types of Apis).
 
 Well this kind of thinking wasn't my fault. That's how some micro-frameworks
 were presented to the world. And still, nowadays, some of them have descriptions
-that make us think they are really super simple and supposed to be used only for
+that make us think they are really simple and supposed to be used only for
 small or simple projects.
 
 Let's take a look into some of them (Based on a search on [DuckDuckGo](http://ddg.gg)
 for **php micro framework**).
 
 - [Slim Framework's](http://www.slimframework.com/) page says the framework
-    helps you building **simple** yet powerful applications.
-- [Limonade's](https://limonade-php.github.io/) page says it's aimed for rapid
+    helps you build **simple** yet powerful applications.
+- [Limonade's](https://limonade-php.github.io/) page says it's aimed at rapid
     web development and **prototyping**.
 - [Fat-Free Framework's](http://fatfreeframework.com/home) page says it's
     **easy** to use.
@@ -37,23 +37,23 @@ Another interesting note is that most of micro-framework's pages uses the words
 developers, but maybe **simple** and **easy** are not the right choice of words.
 
 Now, to the big question: Are micro-frameworks really easy to use and aimed
-mainly to small projects?
+mainly at small projects?
 
 Well, I don't think so.
 
-A lot of people misunderstands what the **micro** means for micro-frameworks. It
+A lot of people misunderstand what the **micro** means for micro-frameworks. It
 doesn't mean that your projects should be micro or small, it means that the
-framework will not provide you with almost everything a software project needs.
+framework does not ship with most of the components you usually have in a full stack.
 Micro-frameworks are a response for the big full-stack frameworks, that usually
-ships a lot of libraries, helpers, patterns and structure to help you focus on
+ship a lot of libraries, helpers, patterns and structure to help you focus on
 your problem, not on defining which patterns, libraries, best practices or
 whatever a project usually needs to be good and maintainable.
 
 So, if you think about it, micro-frameworks are actually **harder** to use than
 **full-stacks**!
 
-And this leads to another question: Are micro-frameworks good choices for
-beginners? Ok, maybe this topic will turn into a new post :)
+And this leads to another question:
+[Are micro-frameworks good for beginners?](http://blog.evaldojunior.com/webdev/microframeworks/discussion/2015/02/12/are-microframeworks-for-beginners.html)
 
 Now, going back to projects' size...
 
@@ -89,7 +89,13 @@ Template engine? Framework!!! (Ok, not CodeIgniter...)
 
 Well, you get it.
 
-And maybe you don't need all these things. Maybe you need just a router for your
+The problem here is that many beginners get used to one framework and tend to use
+it for everything. If you are a beginner, I recommend you to build stuff, a lot
+of stuff, with no framework at all. Build a lot of toy projects, then try to
+use some frameworks, more than one, and then you will be able to make better
+choices.
+
+Now, back to the full stacks, maybe you don't need all these things. Maybe you need just a router for your
 small Api. And I think this is where the problem lies. If full-stack frameworks
 have a lot of helpful things, they are useful only for big projects, that will
 really make use of everything in the framework, or most part of it. And, of
