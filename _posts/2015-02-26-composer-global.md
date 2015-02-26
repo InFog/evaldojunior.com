@@ -13,16 +13,16 @@ published: true
 ---
 
 A few time ago PHP developers could have global libraries installed via PEAR.
-Ok, we still can still some things via PEAR, but this distribution method is
-being replaced by Composer.
+Ok, we still can install some things via PEAR, but this distribution method is
+being deprecated and replaced by [Composer](https://getcomposer.org).
 
 Usually Composer is used to install local dependencies for each project, but I
-guess not everyone knows it can also be used to install global dependencies,
-commands and libraries.
+guess not everyone know it can also be used to install global dependencies,
+commands and libraries. I'm not sure if using composer to install global
+dependencies for production environment is a good idea, I usually keep global
+installations for commands, like PHPUnit and PHPCPD.
 
-I usually keep global installations for commands, like PHPUnit and PHPCPD.
-
-PHPCPD is a tool used to find duplicated code and you usualy don't need to have
+PHPCPD is a tool used to find duplicated code and you usually don't need to have
 it in the dependencies for each project.
 
 So, here is my recipe on how to use composer to install global commands.
@@ -43,21 +43,22 @@ with this content:
   }
 
 This file will tell composer to install the binaries of the packages in my
-**~/bin** dir. Ans since this dir is in my **$PATH**, I'll be able to execute
-php commands simply calling the command name.
+**~/bin** dir. And since this dir is in my **$PATH**, I'll be able to execute
+php commands simply using the command name.
 
 For example, to install PHPCPD, use this (assuming **composer** is also in your
 PATH):
 
   composer global require "sebastian/phpcpd:*"
 
-Wait for the installation and done, you have PHPCPD to run whenever you need:
+Wait for the installation to finish and done, you have PHPCPD to run whenever you need it:
 
+  cd myprojectdir
   phpcpd src/
   phpcpd 2.0.1 by Sebastian Bergmann.
   0.00% duplicated lines out of 5107 total lines of code.
 
-Wow, good! No duplication in a real project :)
+Wow, good! No duplication in a real project :) And it's the first run.
 
 You can also setup something like this to install binaries (executables) into
 **/usr/local/bin** or something like this. But it would be more for shared envs.
