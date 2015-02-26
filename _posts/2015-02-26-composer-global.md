@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using Composer for global libraries
+title: Installing global commands with Composer
 categories:
 - PHP
 - Composer
@@ -30,17 +30,21 @@ So, here is my recipe on how to use composer to install global commands.
 First of all, I have a directory **~/bin** in my home. In this directory I keep
 my local commands. This directory is also in my **$PATH**:
 
+```bash
   # .bashrc, .zshrc or your favorite shell config file
   PATH=$PATH:~/bin
+```
 
 In my home dir I also have a **.composer** dir, where I created a **composer.json**
 with this content:
 
+```json
   {
     "config": {
       "bin-dir": "/home/myuser/bin"
     }
   }
+```
 
 This file will tell composer to install the binaries of the packages in my
 **~/bin** dir. And since this dir is in my **$PATH**, I'll be able to execute
@@ -49,14 +53,18 @@ php commands simply using the command name.
 For example, to install PHPCPD, use this (assuming **composer** is also in your
 PATH):
 
+```bash
   composer global require "sebastian/phpcpd:*"
+```
 
 Wait for the installation to finish and done, you have PHPCPD to run whenever you need it:
 
+```bash
   cd myprojectdir
   phpcpd src/
   phpcpd 2.0.1 by Sebastian Bergmann.
   0.00% duplicated lines out of 5107 total lines of code.
+```
 
 Wow, good! No duplication in a real project :) And it's the first run.
 
