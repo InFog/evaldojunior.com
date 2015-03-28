@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How does the PHP autoload works?
+title: How does the PHP autoload work?
 categories:
 - PHP
 - Development
