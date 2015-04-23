@@ -25,6 +25,8 @@ But then this one guy gave me a chance to speak at
 [Bulgaria Web Summit 2015](http://bulgariawebsummit.com), and I'm very thankful
 for that. Thank you, [Bogomil](http://twitter.com/bogomep)!
 
+![During the talk](/assets/images/bws15/bws15_2.jpg)
+
 I talked to Bogomil in the beginning of January and the conference day seemed to
 be very far in the future. But as time passed by I started realizing that it
 was really going to happen (and freaked out just a little bit).
@@ -34,23 +36,21 @@ guess being a teacher for a Brazilian university for four years helped also).
 But this was my first time speaking in English.
 
 The plan was to reuse one of my previous presentations (slides) and translate
-it into English. But then I realised that I don't really like that style of
+it into English. But then I realized that I don't really like that style of
 slides and presentation anymore. And then I started the presentation notes and
 the slides from scratch again. Taking notes was the first thing and after I
 finished it I asked for some feedback from [Rafael Dohms](http://twitter.com/rdohms).
-Thanks for help, Rafael!
+Thanks for the help, Rafael!
 
-Notes done, time to make so nice slides. It took me only a few bad slides to
+Notes done, time to make some nice slides. It took me only a few bad slides to
 notice that I'm not really good at making visually nice slides. I really wanted
-to have nice slides for my first presentation in Europe. So I asked for my
+to have good slides for my first presentation in Europe. So I asked for my
 wife's help and she guided me to come up with these slides:
 
 <script
     async class="speakerdeck-embed" data-id="71f1eca63dbf4ecabaec4b629e247d6d"
     data-ratio="1.33159947984395" src="//speakerdeck.com/assets/embed.js">
 </script>
-
-Thank you, [Cássia](http://flickr.com/cassialuz)!
 
 I really like the result of a few more hours invested in the slides making. If
 you are a speaker, try to do the same, the result can be very nice. And after
@@ -73,6 +73,8 @@ I started my speak, a little bit nervous, I introduced myself and told some joke
 about being a Brazilian living in Germany and almost freezing during the
 winter, people laugh, and out of a sudden, I was very calm and felling
 confident about the talk and the subject again.
+
+![The full room](/assets/images/bws15/bws15_1.jpg)
 
 The talk was very nice and I had just one or two moments of forgetting some term
 in English (or Portuguese, you know, it happens).
