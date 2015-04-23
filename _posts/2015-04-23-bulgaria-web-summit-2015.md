@@ -69,7 +69,8 @@ until the end of the presentation and the questions, if any, after it.
 And then I was there, in front of a full room, no more seats left, people
 standing up in the back of the room. I was really excited because I was able to
 bring that amount of people to my talk. And at the same time I was freaking out
-because I was able to bring that amount of people to my talk!
+because I was able to bring that amount of people to my talk! The first one in
+English!
 
 I started my speak, a little bit nervous, I introduced myself and told some joke
 about being a Brazilian living in Germany and almost freezing during the
@@ -80,12 +81,9 @@ confident about the talk and the subject again.
 
 Picture by [Pavel Nikolov](https://twitter.com/pavkatar).
 
-The talk was very nice and I had just one or two moments of forgetting some term
-in English (or Portuguese, you know, it happens).
-
-After the talk some people asked some nice questions and only then I said that
+After the talk some people asked some questions and I aswered. And then I said that
 that was my first talk in English and I heard some people saying "you did great!",
-"it was good!". I guess I'm the one really judging me sometimes...
+"it was good!".
 
 And the most amazing thing happened during the rest of the day: Some people came to
 me asking for tips, to congratulate for the talk, etc. Bulgarians are very nice
@@ -98,7 +96,7 @@ amazing things that can happen when people from different countries get together
 If you go to a conference like this, talk to people, introduce yourself, ask
 questions, share knowledge, etc. It's very nice.
 
-Oh, and if you like some talk or talks, let the speaker/speakers know it. You know, speakers
+Oh, and if you like some talk, let the speaker know it. You know, speakers
 are people too, they know some things and they don't know some other things, just
 like everyone else. And when you come to a speaker and tell him/her you liked the
 talk, you can make the speaker feel that all the effort and time spent for the
