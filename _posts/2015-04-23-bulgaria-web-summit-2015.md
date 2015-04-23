@@ -27,6 +27,8 @@ for that. Thank you, [Bogomil](http://twitter.com/bogomep)!
 
 ![During the talk](/assets/images/bws15/bws15_2.jpg)
 
+Picture by [Nikolai Ivanov](https://twitter.com/mraiur).
+
 I talked to Bogomil in the beginning of January and the conference day seemed to
 be very far in the future. But as time passed by I started realizing that it
 was really going to happen (and freaked out just a little bit).
@@ -75,6 +77,8 @@ winter, people laugh, and out of a sudden, I was very calm and felling
 confident about the talk and the subject again.
 
 ![The full room](/assets/images/bws15/bws15_1.jpg)
+
+Picture by [Pavel Nikolov](https://twitter.com/pavkatar).
 
 The talk was very nice and I had just one or two moments of forgetting some term
 in English (or Portuguese, you know, it happens).
