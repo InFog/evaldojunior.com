@@ -13,7 +13,7 @@ type: post
 published: true
 ---
 
-So, I attended to my first conference out of Brazil, and as speaker! Wow! It was
+So, I attended to my first conference as a speaker out of Brazil! Wow! It was
 a very nice experience and I want to share how it was for me.
 
 I was a speaker for some Brazilian conferences in the past few years and when
