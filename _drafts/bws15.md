@@ -23,7 +23,7 @@ ok with that, I learned from it ;)
 
 But then this one guy gave me a chance to speak at
 [Bulgaria Web Summit 2015](http://bulgariawebsummit.com), and I'm very thankful
-for that. Thank you, [Bogomil](http://twitter.com/bogomil)!
+for that. Thank you, [Bogomil](http://twitter.com/bogomep)!
 
 I talked to Bogomil in the beginning of January and the conference day seemed to
 be very far in the future. But as time passed by I started realizing that it
