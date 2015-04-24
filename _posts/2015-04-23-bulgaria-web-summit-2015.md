@@ -72,7 +72,7 @@ bring that amount of people to my talk. And at the same time I was freaking out
 because I was able to bring that amount of people to my talk! The first one in
 English!
 
-I started my speak, a little bit nervous, I introduced myself and told some joke
+I started my talk, a little bit nervous, I introduced myself and told some joke
 about being a Brazilian living in Germany and almost freezing during the
 winter, people laugh, and out of a sudden, I was very calm and felling
 confident about the talk and the subject again.
