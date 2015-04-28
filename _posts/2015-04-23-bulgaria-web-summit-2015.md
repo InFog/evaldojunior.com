@@ -74,21 +74,21 @@ English!
 
 I started my talk, a little bit nervous, I introduced myself and told some joke
 about being a Brazilian living in Germany and almost freezing during the
-winter, people laugh, and out of a sudden, I was very calm and felling
+winter, people laugh, and out of a sudden, I was very calm and feeling
 confident about the talk and the subject again.
 
 ![The full room](/assets/images/bws15/bws15_1.jpg)
 
 Picture by [Pavel Nikolov](https://twitter.com/pavkatar).
 
-After the talk some people asked some questions and I aswered. And then I said that
+After the talk some people asked some questions and I answered. And then I said that
 that was my first talk in English and I heard some people saying "you did great!",
 "it was good!".
 
 And the most amazing thing happened during the rest of the day: Some people came to
 me asking for tips, to congratulate for the talk, etc. Bulgarians are very nice
 people indeed :) Thanks for having me and I hope you all enjoyed the conference
-and my talk as much as I.
+and my talk as much as I did.
 
 Besides the talk and the conference I met some really nice and interesting people
 from different countries. This exchange of experiences is one of the most
