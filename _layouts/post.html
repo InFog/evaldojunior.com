@@ -2,11 +2,12 @@
 layout: default
 ---
 <article>
-    <span>{{ page.date | date_to_string }}</span>
-
-    <h2 class="post-title">{{ page.title }}</h2>
-
     <div class="post">
+        <span>{{ page.date | date_to_string }}</span>
+        <h2 class="post-title">{{ page.title }}</h2>
+
+        <img class="postmainimage" src="/assets/images/{{ page.mainimage }}">
+
         {{ content }}
     </div>
 </article>

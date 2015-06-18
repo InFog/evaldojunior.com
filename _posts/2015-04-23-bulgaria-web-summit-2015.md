@@ -11,6 +11,7 @@ tags:
 status: publish
 type: post
 published: true
+mainimage: "bws15/bulgaria.jpeg"
 ---
 
 So, I attended to my first conference as a speaker out of Brazil! Wow! It was

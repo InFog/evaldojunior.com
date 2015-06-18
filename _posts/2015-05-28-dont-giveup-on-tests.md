@@ -12,6 +12,7 @@ tags:
 status: publish
 type: post
 published: true
+mainimage: "general/tests.png"
 ---
 
 It's a new day and you are about to start a new project. It's not a public/open
