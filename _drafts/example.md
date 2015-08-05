@@ -9,4 +9,5 @@ tags:
 status: publish
 type: post
 published: true
+mainimage: ""
 ---
