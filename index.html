@@ -11,10 +11,12 @@ title: Evaldo Junior (InFog)
                 <h2 class="post-title">{{ post.title }}</h2>
             </a>
             <p>
-                {{ post.content | strip_html | truncatewords: 30 }}
+                {{ post.content | strip_html | truncatewords: 50 }}
+                <br />
                 <a href="{{ post.url }}">Read more</a>
             </p>
         </li>
+        <hr />
     {% endfor %}
 </ul>
 
