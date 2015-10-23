@@ -65,7 +65,7 @@ and persisting it to the database via a repository method.
 
 Now, try to unit test it.
 
-By the way, I'm going to discuss whether or not Controllers should be tested. The
+By the way, I'm not going to discuss whether or not Controllers should be tested. The
 thing is trying to test this controller that heavily depends on the Container.
 
 In order to test it you will have to mock the container and inject it, which is
@@ -127,7 +127,7 @@ class StuffController extends Controler
 ```
 
 Now it is easier do inject a StuffRepository to the testing. But there is still
-one wild dependency to cover, the request:
+one wild dependency to cover, the **Request**:
 
 ```php
 <?php
@@ -176,5 +176,5 @@ class StuffController extends Controler
 
 This one was easier, since the request is a dependency only for the method, not
 for the whole class. Now it is possible to easily mock the Repository and the
-Request and test this controller and what is even better the dependencies as
+Request and test this controller and what is even better the dependencies are as
 clear as the day light.
