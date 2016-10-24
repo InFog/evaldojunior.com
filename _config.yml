@@ -5,11 +5,12 @@ markdown: redcarpet
 highlighter: pygments
 timezone: Europe/Berlin
 paginate: 10
+gems: [jekyll-paginate]
 defaults:
   -
     scope:
       path: ""
-      type: post
+      type: posts
     values:
       mainimage: "default.jpg"
   -
