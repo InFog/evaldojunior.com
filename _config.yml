@@ -2,7 +2,7 @@ name: Evaldo Junior (InFog)
 description: A blog about GNU/Linux, PHP, Python and other development tools, IT and general geek stuff.
 url: http://blog.evaldojunior.com
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 timezone: Europe/Berlin
 paginate: 10
 gems: [jekyll-paginate]
