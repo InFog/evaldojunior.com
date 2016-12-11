@@ -25,7 +25,7 @@ the **container**. I mean, don't get me wrong, Dependency Injection Containers
 are great, but the way they are usually used is where the problem lies. Look
 at this example:
 
-```php
+{% highlight php %}
 <?php
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -58,7 +58,7 @@ class StuffController extends Controler
         return new Response('Bad request', 400);
     }
 }
-```
+{% endhighlight %}
 
 It does not look bad, right? It is just a simple action receiving some data
 and persisting it to the database via a repository method.
@@ -81,7 +81,7 @@ One way to make it better and have your dependencies explicit is adding the actu
 dependencies as properties of the class and injecting them in the constructor.
 Here is an example:
 
-```php
+{% highlight php %}
 <?php
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -124,12 +124,12 @@ class StuffController extends Controler
         return new Response('Bad request', 400);
     }
 }
-```
+{% endhighlight %}
 
 Now it is easier do inject a StuffRepository to the testing. But there is still
 one wild dependency to cover, the **Request**:
 
-```php
+{% highlight php %}
 <?php
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -172,7 +172,7 @@ class StuffController extends Controler
         return new Response('Bad request', 400);
     }
 }
-```
+{% endhighlight %}
 
 This one was easier, since the request is a dependency only for the method, not
 for the whole class. Now it is possible to easily mock the Repository and the
