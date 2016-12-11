@@ -24,6 +24,7 @@
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/assets/css/syntax.css">
 
+        <script type="text/javascript" src="/assets/js/float-panel.js"></script>
         <script type="text/javascript">var switchTo5x=true;</script>
         <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
         <script type="text/javascript">stLight.options({publisher: "ab04e593-33ed-43b0-b6ea-a46ad51cc7d0", doNotCopy: true, hashAddressBar: false});</script>
@@ -34,39 +35,41 @@
             <div class="ink-grid">
                 <div class="column-group gutters">
                     <div class="all-100">
-                        <h1><a href="/">{{ site.name }}</a></h1>
-
-                        <p>
-                            Web developer, writer, speaker, Free and Open Source Software contributor
-                            <br />and sometimes a gamer.</p>
-
-                        <nav>
-                            <ul class="unstyled horizontal">
-                                <li><a class="" href="/books.html">Books</a></li>
-                                <li><a class="" href="/about.html">About</a></li>
-                                <li><a class="" href="http://blog.evaldojunior.com.br/">Blog in Portuguese</a></li>
-                            </ul>
-                        </nav>
-
-                        <nav>
-                            <ul class="unstyled horizontal links-top">
-                                <li>
-                                    <a href="https://github.com/InFog">
-                                        <i class="fa fa-github-square"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://twitter.com/InFog9">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="{{ site.url }}/feed.xml">
-                                        <i class="fa fa-rss"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
+                        <div id="menu_top" class="float-panel">
+                            <div class="all-40 blog-title">
+                                <h1><a href="/">{{ site.name }}</a></h1>
+                            </div>
+                            <div class="all-60 blog-menu">
+                                <nav>
+                                    <ul class="unstyled horizontal">
+                                        <li><a class="" href="/books.html">Books</a></li>
+                                        <li><a class="" href="/about.html">About</a></li>
+                                        <li><a class="" href="http://blog.evaldojunior.com.br/">Blog in Portuguese</a></li>
+                                        <li>
+                                            <a href="https://github.com/InFog">
+                                                <i class="fa fa-github-square"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/InFog9">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="{{ site.url }}/feed.xml">
+                                                <i class="fa fa-rss"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="all-100">
+                            <p>
+                                Web developer, writer, speaker, Free and Open Source Software contributor
+                                <br />and sometimes a gamer.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

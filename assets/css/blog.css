@@ -20,7 +20,7 @@ h2.post-title {
 
 header {
     text-align: center;
-    padding: 50px 0 0 0;
+    padding: 10px 0 0 0;
 }
 
 header,
@@ -31,6 +31,24 @@ header a {
 header a:hover {
     text-decoration: none;
     color: #404040;
+}
+
+header ul {
+    padding: 0;
+    margin: 0;
+}
+
+#menu_top {
+    background-color: #fff;
+    width: 95%;
+}
+
+.blog-title {
+    text-align: left;
+}
+
+.blog-menu {
+    text-align: right;
 }
 
 .links-top {
