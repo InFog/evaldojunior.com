@@ -5,7 +5,7 @@ markdown: kramdown
 highlighter: rouge
 timezone: Europe/Berlin
 paginate: 10
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-feed]
 defaults:
   -
     scope:
