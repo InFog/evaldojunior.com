@@ -3,20 +3,17 @@ layout: default
 title: Evaldo Junior (InFog)
 ---
 
-<ul class="unstyled">
+<ul class="unstyled posts-list">
     {% for post in paginator.posts %}
         <li>
-            <span>{{ post.date | date_to_string }}</span>
+            <span class="post-date">{{ post.date | date_to_string }}</span>
             <a href="{{ post.url }}">
                 <h2 class="post-title">{{ post.title }}</h2>
+                <p>
+                    {{ post.content | strip_html | truncatewords: 30 }}
+                </p>
             </a>
-            <p>
-                {{ post.content | strip_html | truncatewords: 50 }}
-                <br />
-                <a href="{{ post.url }}">Read more</a>
-            </p>
         </li>
-        <hr />
     {% endfor %}
 </ul>
 

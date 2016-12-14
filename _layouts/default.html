@@ -6,157 +6,140 @@
 
         <title>{{ page.title }}</title>
 
-        <link rel="shortcut icon" href="/assets/favicon2.png" type="image/x-icon">
-        <link rel="icon" href="/assets/favicon2.png" type="image/x-icon">
-        {% feed_meta %}
-
         <meta name="title" content="{{ page.title }}" />
         <meta name="description" content="{{ site.description }}" />
+
+        <link rel="shortcut icon" href="/assets/favicon3.png" type="image/x-icon">
+        <link rel="icon" href="/assets/favicon3.png" type="image/x-icon">
+
+        {% feed_meta %}
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
         <link rel="alternate" type="application/rss+xml" title="{{ site.name }}'s feed"  href="/feed.xml" />
 
-        <link rel="stylesheet" type="text/css" href="http://fastly.ink.sapo.pt/3.1.0/css/ink.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="/assets/css/blog.css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fira+Mono" rel="stylesheet">
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/assets/css/syntax.css">
 
+        <link rel="stylesheet" href="/assets/css/blog.css">
+
         <script type="text/javascript" src="/assets/js/float-panel.js"></script>
         <script type="text/javascript">var switchTo5x=true;</script>
         <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-        <script type="text/javascript">stLight.options({publisher: "ab04e593-33ed-43b0-b6ea-a46ad51cc7d0", doNotCopy: true, hashAddressBar: false});</script>
+        <script type="text/javascript">stLight.options({publisher: "ab04e593-33ed-43b0-b6ea-a46ad51cc7d0", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
     </head>
 
     <body>
         <header>
-            <div class="ink-grid">
-                <div class="column-group gutters">
-                    <div class="all-100">
-                        <div id="menu_top" class="float-panel">
-                            <div class="all-40 blog-title">
-                                <h1><a href="/">{{ site.name }}</a></h1>
-                            </div>
-                            <div class="all-60 blog-menu">
-                                <nav>
-                                    <ul class="unstyled horizontal">
-                                        <li><a class="" href="/books.html">Books</a></li>
-                                        <li><a class="" href="/about.html">About</a></li>
-                                        <li><a class="" href="http://blog.evaldojunior.com.br/">Blog in Portuguese</a></li>
-                                        <li>
-                                            <a href="https://github.com/InFog">
-                                                <i class="fa fa-github-square"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://twitter.com/InFog9">
-                                                <i class="fa fa-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="{{ site.url }}/feed.xml">
-                                                <i class="fa fa-rss"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                        <div class="all-100">
-                            <p>
-                                Web developer, writer, speaker, Free and Open Source Software contributor
-                                <br />and sometimes a gamer.
-                            </p>
-                        </div>
-                    </div>
+            <div class="float-panel sticky-top">
+                <div class="blog-name">
+                    <h2><a href="/">{{ site.name }}</a></h2>
+                </div>
+
+                <div class="blog-top-menu">
+                    <nav>
+                        <ul class="unstyled horizontal">
+                            <li>
+                                <a class="" href="/books.html">Books</a>
+                            </li>
+                            <li>
+                                <a class="" href="/about.html">About</a>
+                            </li>
+                            <li>
+                                <a class="" href="http://blog.evaldojunior.com.br/">Blog in Portuguese</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/InFog">
+                                    <i class="fa fa-github-square"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/InFog9">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{ site.url }}/feed.xml">
+                                    <i class="fa fa-rss"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
+
+            <p class="clear center">
+                &nbsp;
+            </p>
         </header>
 
-        <div class="ink-grid">
-            <div class="column-group gutters">
-                <div class="all-15 small-100"></div>
-                <div class="all-70 small-100">
-                    <hr />
-                    {{ content }}
-                </div>
-                <div class="all-15 small-100"></div>
+        <div id="content">
+            <article>
+                {{ content }}
+            </article>
+        </div>
+
+        <div id="footer_info">
+            <div>
+                <h3>Follow up</h3>
+                <ul class="unstyled">
+                    <li>
+                        <a href="{{ site.url }}/feed.xml">
+                            <i class="fa fa-rss"></i> RSS Feed
+                        </a>
+                    </li>
+                </ul>
             </div>
+            <div>
+                <h3>Find me here</h3>
+                <ul class="unstyled">
+                    <li>
+                        <a href="https://github.com/InFog">
+                            <i class="fa fa-github-square"></i> GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/InFog9">
+                            <i class="fa fa-twitter"></i> Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/user/EvaldoJuniorBento/videos">
+                            <i class="fa fa-youtube"></i> YouTube
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://speakerdeck.com/infog">
+                            <i class="fa fa-user"></i> Speaker Deck
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://br.linkedin.com/in/evaldojunior/">
+                            <i class="fa fa-linkedin"></i> LinkedIn
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h3>Awesome tools and services I use</h3>
+                <ul class="unstyled">
+                    <li><a href="http://www.debian.org/">Debian</a></li>
+                    <li><a href="http://php.net/">PHP</a></li>
+                    <li><a href="http://www.vim.org">Vim</a></li>
+                    <li><a href="https://www.digitalocean.com/?refcode=1059a87d7c47">DigitalOcean</a></li>
+                </ul>
+            </div>
+        </div>
 
-            <aside>
-                <div class="column-group gutters">
-                    <div class="all-15 small-100"></div>
-                    <div class="all-70 small-100">
-                        <div class="column-group gutters">
-                            <div class="all-33 medium-100 small-100">
-                                <h3>Follow up</h3>
-                                <ul class="unstyled">
-                                    <li>
-                                        <a href="{{ site.url }}/feed.xml">
-                                            <i class="fa fa-rss"></i> RSS Feed
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="all-33 medium-100 small-100">
-                                <h3>Find me here</h3>
-                                <ul class="unstyled">
-                                    <li>
-                                        <a href="https://github.com/InFog">
-                                            <i class="fa fa-github-square"></i> GitHub
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://twitter.com/InFog9">
-                                            <i class="fa fa-twitter"></i> Twitter
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.youtube.com/user/EvaldoJuniorBento/videos">
-                                            <i class="fa fa-youtube"></i> YouTube
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://speakerdeck.com/infog">
-                                            <i class="fa fa-laptop"></i> Speaker Deck
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="http://about.me/evaldojunior">
-                                            <i class="fa fa-user"></i> About me
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="http://br.linkedin.com/in/evaldojunior/">
-                                            <i class="fa fa-linkedin"></i> LinkedIn
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="all-33 medium-100 small-100">
-                                <h3>Awesome tools and services I use</h3>
-                                <ul class="unstyled">
-                                    <li><a href="http://www.debian.org/">Debian</a></li>
-                                    <li><a href="http://php.net/">PHP</a></li>
-                                    <li><a href="http://www.vim.org">Vim</a></li>
-                                    <li><a href="https://www.digitalocean.com/?refcode=1059a87d7c47">DigitalOcean</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </aside>
-
-            <div class="column-group gutters">
-                <div class="all-100">
-                    <div class="footer">
-                        <p>
-                            &copy; Evaldo Junior (InFog) 2014 - 2016
-                        </p>
-                    </div>
-                </div>
+        <div id="footer" class="clear">
+            <div>
+                <p>
+                    &copy; Evaldo Junior (InFog) 2014 - 2016
+                </p>
             </div>
         </div>
 
