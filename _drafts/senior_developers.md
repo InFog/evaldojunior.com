@@ -100,6 +100,22 @@ are SaaS tools that can be easily integrated into your servers and applications.
 There are also self-hosted free options like the excellent [ELK](https://www.elastic.co/products)
 stack.
 
+
+Caching is another important skill. Understanding where to apply a caching
+technique may be the difference between having a nice and fast user experience
+or a slow one where the servers are always on fire while the customer is waiting
+for the page to load. And users will not wait for the page to load, they will look
+for something else. Remember caching exists in different flavours, 
+
+Important: Do not depend on the company you are working for to learn new things.
+If you don't have the chance to learn unit tests in your current position, you can
+do it at home, building some personal project. The same applies for everything else.
+Nowadays it is super easy to setup a GNU/Linux virtual machine where you can play
+around and practice new skills that may be useful for your current work or to get
+a new one. You can always get a [$10 credit on Digital Ocean](https://m.do.co/c/1059a87d7c47)
+to deploy your applications and setup deployment pipelines using tools like GitHub,
+BitBucket and [Codeship](https://codeship.com/).
+
 Senior developers should also have good communication skills and be able to
 understand the business of the companies they work for. Let's be realistic, a
 really small number of us are working for Google, GitHub, Atlassian, Oracle and
