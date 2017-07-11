@@ -12,7 +12,7 @@ tags:
 status: publish
 type: post
 published: true
-mainimage: ""
+mainimage: "developer_magic.png"
 ---
 
 This post is my opinion about what I think a senior PHP developer should know
@@ -26,11 +26,12 @@ senior PHP developer should know. Keep this in mind and enjoy the reading.
 Of course the number one requirement is a good understanding about the PHP
 language. You don't need to know the deepest details about the language, but
 you should know it well to feel comfortable reading source files and you should
-know here to find documentation and help when you need. Yes, senior developers
+know where to find documentation and help when you need. Yes, senior developers
 also look for usage example and learn from them, so do not be afraid to search
 for answers online, just be sure to be able to tell apart the good sources of
 information from the not good ones. When in doubt go for the
-[official manual](http://php.net/docs.php).
+[official manual](http://php.net/docs.php) and take a look on
+[PHP the Right Way](http://www.phptherightway.com/) from time to time.
 
 PHP 7 is out there for quite a while now and even 7.1 is available as a stable
 release, so you should know what the new 7.x family brings to the table. Speed
@@ -55,7 +56,7 @@ a senior developer.
 You also need to know  the main frameworks out there and the differences between
 them. Should I use Symfony to build a landing page that will be discarded in a
 few weeks? Or is CakePHP a better option for that? Maybe it is Yii or Laravel?
-The important thing here is not to be locked inside one framework's tool set
+The important thing here is not to be locked inside one framework's toolset
 and capabilities. The reason we have so many frameworks in the wild is because
 people and projects have different needs. And here we can apply that saying:
 If all you have is a hammer, all your problems will look like nails.
@@ -70,11 +71,12 @@ design.
 
 A senior PHP developer should be able to write unit tests for untested code and
 refactor it. Our industry is in constant change and tools and libraries are
-constantly evolving. Being able to replace an unmaintained library from a code
-base to replace it with another one is a really nice skill to have. A hard one
+constantly evolving. Being able to remove an unmaintained library from a code
+base and replace it with another one is a really nice skill to have. A hard one
 because it requires investigation and patience usually, but it is still a skill
 that not all devs have because we as developers usually want to replace code
-with what is new and better (and will become old and worse in some months/years).
+with what is new and better (and will become old and worse in some months/years,
+but no one remembers this part usually).
 
 And talking about tests, a senior developer should be able to write tests and
 also to practice techniques like Test Driven Development. Mocking other systems
@@ -95,19 +97,19 @@ in the PHP world.
 
 After deployment you should be able to understand how your applications behave
 in production, so you need monitoring tools like [NewRelic](https://newrelic.com/),
-[Datadog](https://www.datadoghq.com/) and [Sentry](https://sentry.io/welcome/)
-are SaaS tools that can be easily integrated into your servers and applications.
+[Datadog](https://www.datadoghq.com/) and [Sentry](https://sentry.io/welcome/),
+that are SaaS tools that can be easily integrated into your servers and applications.
 There are also self-hosted free options like the excellent [ELK](https://www.elastic.co/products)
 stack.
-
 
 Caching is another important skill. Understanding where to apply a caching
 technique may be the difference between having a nice and fast user experience
 or a slow one where the servers are always on fire while the customer is waiting
 for the page to load. And users will not wait for the page to load, they will look
-for something else. Remember caching exists in different flavours, 
+for something else. Remember caching exists in different flavours and it is
+important do know what, when and where to use cache, from code the cdn.
 
-Important: Do not depend on the company you are working for to learn new things.
+**Important**: Do not depend on the company you are working for to learn new things.
 If you don't have the chance to learn unit tests in your current position, you can
 do it at home, building some personal project. The same applies for everything else.
 Nowadays it is super easy to setup a GNU/Linux virtual machine where you can play
