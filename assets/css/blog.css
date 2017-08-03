@@ -49,6 +49,10 @@ header,
     float: right;
 }
 
+.post p {
+    text-align: justify;
+}
+
 ul.unstyled {
     list-style: none;
     padding: 0;
@@ -73,7 +77,7 @@ ul.horizontal li {
     max-width: 100%;
 }
 
-.author {
+.author p {
     text-align: center;
 }
 
