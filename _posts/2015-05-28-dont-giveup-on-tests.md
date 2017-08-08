@@ -51,3 +51,6 @@ usually the case when making your first changes in a project :)
 My message here is: Don't give up on your tests. Please! Tests will help keep
 your project healthy, keep your team not afraid of changes and keep devs happy
 (or, at least, not sad or afraid).
+
+If you are interested I have some more thoughts about this subject in the
+[Rakuten Europe Tech Blog](https://rakuten-europe.tech/2017/08/08/do-not-give-up-on-your-tests/).
