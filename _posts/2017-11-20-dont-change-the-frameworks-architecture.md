@@ -58,7 +58,7 @@ framework, so it is a gray area. Still, changes there can cause problems for
 updates and when developers would not expect a different behaviour implemented
 there.
 
-In the end my opinion on this topic is: To not change the behaviour of a
+In the end my opinion on this topic is: Do not change the behaviour of a
 framework because it will cause you more trouble in the future than solutions in
 the present.
 
