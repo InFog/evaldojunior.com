@@ -50,7 +50,15 @@ header,
 }
 
 .post p {
+    font-size: 1em;
     text-align: justify;
+}
+
+.post p code {
+    font-size: 1em;
+    background-color: #d5e6e3;
+    padding: 0.1em;
+    border-radius: 3px;
 }
 
 ul.unstyled {
@@ -129,5 +137,4 @@ ul.horizontal li {
         display: block;
         width: 100%;
     }
-
 }
