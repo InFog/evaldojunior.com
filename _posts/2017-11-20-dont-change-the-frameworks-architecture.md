@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Do not change the default framework's architecture
+title: Do not change the framework's default architecture
 categories:
 - frameworks
 - architecture
