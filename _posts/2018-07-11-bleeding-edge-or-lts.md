@@ -12,7 +12,7 @@ tags:
 status: publish
 type: post
 published: true
-mainimage: ""
+mainimage: "architecture.jpg"
 ---
 
 Starting a new software project is nice and the mythical green field project is
