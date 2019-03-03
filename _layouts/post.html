@@ -1,55 +1,89 @@
 ---
 layout: default
 ---
-<article>
-    <div class="post">
-        <span class="post-date">{{ page.date | date_to_string }}</span>
-        <h2 class="post-title">{{ page.title }}</h2>
 
-        <img class="postmainimage" src="/assets/images/{{ page.mainimage }}">
-
-        {{ content }}
-
-        <!--
-        <div class="post-tags">
-            {% for tag in post.tags %}
-                <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-                {% unless forloop.last %}&nbsp;{% endunless %}
-            {% endfor %}
+<!-- Page Header -->
+{% if page.mainimage %}
+<header class="masthead" style="background-image: url('/assets/images/{{ page.mainimage | replace: '//', '/' }}')">
+  {% else %}
+  <header class="masthead">
+    {% endif %}
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>{{ page.title }}</h1>
+            {% if page.subtitle %}
+            <h2 class="subheading">{{ page.subtitle }}</h2>
+            {% endif %}
+            <span class="meta">Posted by
+              <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
+              on {{ page.date | date: '%B %d, %Y' }} &middot; {% include read_time.html
+              content=page.content %}</span>
+          </div>
         </div>
-        -->
+      </div>
+    </div>
+  </header>
 
-        <div class="author">
-            <hr />
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <article>
+            {{ content }}
+        </article>
+
+        <hr>
+
+        <div class="clearfix">
+
+          <div class="author">
             <p><img src="http://evaldojunior.com/evaldojunior.jpg" /></p>
             <p>Evaldo Junior</p>
             <p>Web developer, writer, speaker, Free and Open Source Software contributor and sometimes a gamer e a guitar and ukulele player.</p>
+         </div>
         </div>
+
+        <div class="sharing">
+            <span class='st_sharethis_large' displayText='ShareThis'></span>
+            <span class='st_facebook_large' displayText='Facebook'></span>
+            <span class='st_twitter_large' displayText='Tweet'></span>
+            <span class='st_googleplus_large' displayText='Google +'></span>
+            <span class='st_reddit_large' displayText='Reddit'></span>
+            <span class='st_digg_large' displayText='Digg'></span>
+            <span class='st_linkedin_large' displayText='LinkedIn'></span>
+            <span class='st_email_large' displayText='Email'></span>
+        </div>
+
+        <div class="comments">
+            <div id="disqus_thread"></div>
+            <script type="text/javascript">
+                var disqus_shortname = 'evaldojuniorsblog';
+
+                (function() {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+
+        <hr>
+          {% if page.previous.url %}
+          <a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}"
+            data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous<span class="d-none d-md-inline">
+              Post</span></a>
+          {% endif %}
+          {% if page.next.url %}
+          <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}"
+            data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline">
+              Post</span> &rarr;</a>
+          {% endif %}
+
+      </div>
     </div>
-</article>
-
-<div class="sharing">
-    <span class='st_sharethis_large' displayText='ShareThis'></span>
-    <span class='st_facebook_large' displayText='Facebook'></span>
-    <span class='st_twitter_large' displayText='Tweet'></span>
-    <span class='st_googleplus_large' displayText='Google +'></span>
-    <span class='st_reddit_large' displayText='Reddit'></span>
-    <span class='st_digg_large' displayText='Digg'></span>
-    <span class='st_linkedin_large' displayText='LinkedIn'></span>
-    <span class='st_email_large' displayText='Email'></span>
-</div>
-
-<div class="comments">
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-        var disqus_shortname = 'evaldojuniorsblog';
-
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</div>
+  </div>

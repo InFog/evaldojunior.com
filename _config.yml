@@ -1,6 +1,9 @@
-name: Evaldo Junior (InFog)
+title: Evaldo Junior (InFog)
+author: Evaldo Junior Bento
 description: A blog about GNU/Linux, PHP, Python and other development tools, IT and general geek stuff.
 url: http://blog.evaldojunior.com
+twitter_username: InFog9
+github_username: InFog
 markdown: kramdown
 highlighter: rouge
 timezone: Europe/Berlin
