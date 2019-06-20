@@ -1,16 +1,17 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    color: #5b6a62;
+    font-size: 1.2em;
+    color: #475b5a;
 }
 
 a {
-    color: #4e2216;
+    color: #475b5a;
     text-decoration: none;
     outline: 0;
 }
 
 a:hover {
-    background-color: #d5e6e3;
+    background-color: #bbbbbf;
 }
 
 a:active {
@@ -111,6 +112,14 @@ ul.horizontal li {
 .pagination li {
     display: inline-block;
     padding: 3px;
+}
+
+div.highlight,
+figure.highlight {
+    margin: 0;
+    padding: 0.5em;
+    border: 1px solid #8d8e8e;
+    border-radius: 4px;
 }
 
 #footer_info div {

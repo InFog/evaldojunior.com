@@ -5,15 +5,17 @@ title: Evaldo Junior (InFog)
 
 <ul class="unstyled posts-list">
     {% for post in paginator.posts %}
-        <li>
-            <span class="post-date">{{ post.date | date_to_string }}</span>
-            <a href="{{ post.url }}">
-                <h2 class="post-title">{{ post.title }}</h2>
-                <p>
-                    {{ post.content | strip_html | truncatewords: 30 }}
-                </p>
-            </a>
-        </li>
+    <li>
+      <a href="{{ post.url }}">
+        <div>
+          <span class="post-date">{{ post.date | date_to_string }}</span>
+          <h2 class="post-title">{{ post.title }}</h2>
+          <p>
+            {{ post.content | strip_html | truncatewords: 30 }}
+          </p>
+        </div>
+      </a>
+    </li>
     {% endfor %}
 </ul>
 
