@@ -133,6 +133,9 @@ An important note: You don't have to be perfect and know all the things I listed
 here from the top of your mind, but you should be able to understand all the
 concepts and to look for help in the right places.
 
+This [page from the folks at Toptal](https://www.toptal.com/php#hiring-guide)
+is also a good resource for learning some specific topics that you may not know yet.
+
 Do you think I missed something in this post? The PHP community is a really
 large one and senior developers will come in all shapes and sizes, so help me
 expand this post by adding your thoughts in the comments bellow.

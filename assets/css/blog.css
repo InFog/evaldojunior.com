@@ -54,6 +54,10 @@ header,
     float: right;
 }
 
+.post a {
+    text-decoration: underline;
+}
+
 .post p {
     font-size: 1em;
     text-align: justify;
