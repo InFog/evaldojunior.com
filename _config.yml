@@ -13,9 +13,13 @@ defaults:
       type: posts
     values:
       mainimage: "default.jpg"
+      image_url: ""
+      image_author: ""
   -
     scope:
       path: ""
       type: posts
     values:
       mainimage: "default.jpg"
+      image_url: ""
+      image_author: ""

@@ -1,15 +1,18 @@
 ---
 layout: post
-title: How to behave on interviews
+title: Tips for job interviews for software developers
 categories:
-- Categories
+- career
+- interviews
 tags:
-- Some
-- Tags
+- career
+- interview
 status: publish
 type: post
 published: true
-mainimage: ""
+mainimage: "now_hiring.jpg"
+image_url: "http://www.amtec.us.com"
+image_author: "Amtec"
 ---
 
 This post is a follow up to [Rafael's post](https://rafaelnexus.com/articles/5-tips-for-developers-cv/)
@@ -33,7 +36,7 @@ even try to think about some improvements that could be done.
 You can subscribe to their services, when that's the case, and check how things
 are and, again, think about possible improvements. Understanding the business
 is important and is needed before getting your hands on code. So, try to put
-yourself on the customer's boots. This will also help with one of the topics
+yourself on the customer's shoes. This will also help with one of the topics
 next on this text, about asking questions.
 
 ## Do not be late
@@ -54,11 +57,12 @@ interview is also your chance to know more about the company and it's culture.
 So, again, prepare yourself for the interview by learning more about the company,
 ask questions like "What am I going to work with?", "What are the challenges
 the team is facing currently?", "Which methodologies are used by the team?",
-"Which tools are used?".
+"Which tools are used?". It is even more interesting to ask how the company is
+doing financially, if it is already profitable etc.
 
 Just think about the things that may be interesting for you to know before joining
 the company and ask them. I see this as positive and that the candidate is not
-interested only on code but also on the structure of company.
+interested only in code but also on the structure of company.
 
 ## Stay calm and comfortable
 
@@ -69,11 +73,11 @@ you stay calm you can better answer the questions they ask you and you can
 ask better questions.
 
 A candidate that sounds too nervous can be removed from the process because the
-communication will be harder and the answers may be not nice.
+communication will be harder and the answers can be not nice.
 
-If you really want a job at that company you always dreamed about it could be
+If you really want a job at that company you always dreamed about, it could be
 better to apply to other jobs before and practice doing some interviews. There
-is nothing wrong in doing that and since you may be less nervous you can actually
+is nothing wrong in doing so and since you may be less nervous you can actually
 find another good position in another company.
 
 ## Tips for online interviews
@@ -91,10 +95,10 @@ before the interview and even try to look for alternative ways to have the
 interview, like a phone call, for example.
 
 Use headphones and a good microphone. External sound will distract you and the
-interviewer. Using headphones alone will prevent even echoes on the call and
+interviewer. Using headphones alone will even prevent echoes on the call and
 make it easier to understand the questions.
 
-Stay on a quiet place. Try everything you can to stay on a quiet place during
+Stay in a quiet place. Try everything you can to stay in a quiet place during
 the interview. I already interviewed people while they walked on a crowded
 street and it was really hard to have them understanding my questions and for
 me to understand their answers.
