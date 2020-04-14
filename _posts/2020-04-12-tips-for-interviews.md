@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Tips for job interviews for software developers
+description: A collection of tips job interviews for software developers. Go and get that position you want.
 categories:
 - career
 - interviews

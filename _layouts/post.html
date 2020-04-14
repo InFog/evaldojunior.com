@@ -6,7 +6,7 @@ layout: default
         <span class="post-date">{{ page.date | date_to_string }}</span>
         <h2 class="post-title">{{ page.title }}</h2>
 
-        <img class="postmainimage" src="/assets/images/{{ page.mainimage }}">
+        <img class="postmainimage" src="{{ site.url }}/assets/images/{{ page.mainimage }}">
 
         {{ content }}
 

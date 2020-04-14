@@ -15,6 +15,7 @@ defaults:
       mainimage: "default.jpg"
       image_url: ""
       image_author: ""
+      description: ""
   -
     scope:
       path: ""
@@ -23,3 +24,4 @@ defaults:
       mainimage: "default.jpg"
       image_url: ""
       image_author: ""
+      description: ""

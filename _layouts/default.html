@@ -11,6 +11,16 @@
 
         <meta name="twitter:site" content="@InFog9" />
 
+        {% if page.description != "" %}
+            <meta name="twitter:card" content="summary">
+            <meta name="twitter:description" content="{{ page.description }}">
+        {% endif %}
+        <meta name="twitter:title" content="{{ page.title }}">
+        <meta name="twitter:creator" content="@InFog9">
+        {% if page.image_url != "" %}
+            <meta name="twitter:image" content="{{ site.url }}/assets/images/{{ page.mainimage }}">
+        {% endif %}
+
         <link rel="shortcut icon" href="/assets/favicon3.png" type="image/x-icon">
         <link rel="icon" href="/assets/favicon3.png" type="image/x-icon">
 

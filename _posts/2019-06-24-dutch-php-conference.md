@@ -11,6 +11,7 @@ status: publish
 type: post
 published: true
 mainimage: "dpc19/talk.jpg"
+description: This was my experience at the Dutch PHP Conference 2019. Long story short, it was awesome.
 ---
 
 I'm speaking at tech conferences since a long time, from small meetups to big
