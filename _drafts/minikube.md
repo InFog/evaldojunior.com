@@ -6,10 +6,12 @@ categories:
 - kubernetes
 - ops
 - k8s
+- minikube
 tags:
 - kubernetes
 - ops
 - k8s
+- minikube
 status: publish
 type: post
 published: true
@@ -138,6 +140,16 @@ minikube dashboard
 🚀  Launching proxy ...
 🤔  Verifying proxy health ...
 🎉  Opening http://127.0.0.1:34977/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/ in your default browser...
+```
+
+Use **ctrl+c** to stop the dashboard.
+
+To stop minikube use **minikube stop**:
+
+```
+minikube stop
+✋  Stopping "minikube" in virtualbox ...
+🛑  Node "m01" stopped.
 ```
 
 And that is it. You now have Minikube running a local Kubernetes cluster. Next
