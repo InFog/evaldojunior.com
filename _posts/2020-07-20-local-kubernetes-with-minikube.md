@@ -152,8 +152,8 @@ minikube stop
 🛑  Node "m01" stopped.
 ```
 
-And that is it. You now have Minikube running a local Kubernetes cluster. Next
-step is to install **kubectl**, the Kubernetes command line client to interact
+And that is it. You now have Minikube running a local Kubernetes cluster.
+Next step is to install **kubectl**, the Kubernetes command line client to interact
 with the cluster.
 
 InFog
