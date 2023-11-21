@@ -57,7 +57,7 @@ like a reminder ou a wish.
 "Improve the endpoint's response" is too vague, even with a nice description. This
 is the kind of change/improvement one does while working on the endpoint or don't.
 Creating a ticket for "later" is just whishful thinking and can actually have the
-side effect of demotivating people when then look at the huge and out of control
+side effect of demotivating people when they look at the huge and out of control
 backlog.
 
 Keep your backlogs tidy. Keep your team happy.
